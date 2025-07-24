@@ -1,0 +1,14 @@
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\bin\Debug\net9.0\StoryDates.cs.deps.json
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\bin\Debug\net9.0\StoryDates.cs.dll
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\bin\Debug\net9.0\StoryDates.cs.pdb
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.AssemblyInfoInputs.cache
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.AssemblyInfo.cs
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.csproj.CoreCompileInputs.cache
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.dll
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\refint\StoryDates.cs.dll
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.pdb
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\ref\StoryDates.cs.dll
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\bin\Debug\net9.0\StoryDates.cs.runtimeconfig.json
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.csproj.AssemblyReference.cache
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDates.cs\obj\Debug\net9.0\StoryDates.cs.genruntimeconfig.cache
