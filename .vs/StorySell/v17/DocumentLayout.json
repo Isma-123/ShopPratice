@@ -126,8 +126,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -150,8 +154,7 @@
               "RelativeToolTip": "TestingStory.cs\\FirstTesting.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T03:23:00.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T03:23:00.541Z"
             },
             {
               "$type": "Document",

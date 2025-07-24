@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\storydates.cs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\storydates.cs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D49EDDC6-CB9C-49AE-90C3-5AC513C4264A}|TestingStory.cs\\TestingStory.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\testingstory.cs\\firsttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49EDDC6-CB9C-49AE-90C3-5AC513C4264A}|TestingStory.cs\\TestingStory.cs.csproj|solutionrelative:testingstory.cs\\firsttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,6 +131,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StoryDates.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
+              "RelativeDocumentMoniker": "StoryDates.cs\\StoryDates.cs.csproj",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
+              "RelativeToolTip": "StoryDates.cs\\StoryDates.cs.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T03:55:13.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FirstTesting.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\TestingStory.cs\\FirstTesting.cs",
               "RelativeDocumentMoniker": "TestingStory.cs\\FirstTesting.cs",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Program.cs",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\Program.cs",
@@ -147,12 +163,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:37:05.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:37:05.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\WeatherForecast.cs",
@@ -160,12 +175,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:36:49.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:36:49.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StoryApiWeb.cs.http",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.http",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
@@ -173,12 +187,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-20T17:52:55.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:52:55.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StoryDates.cs.csproj",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
               "RelativeDocumentMoniker": "StoryDates.cs\\StoryDates.cs.csproj",
@@ -186,12 +199,11 @@
               "RelativeToolTip": "StoryDates.cs\\StoryDates.cs.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-19T22:54:28.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T22:54:28.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
@@ -199,12 +211,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T00:48:58.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T00:48:58.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Base\\BaseRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Base\\BaseRepository.cs",
@@ -212,12 +223,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Base\\BaseRepository.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T02:55:34.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T02:55:34.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StoryContext.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Context\\StoryContext.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Context\\StoryContext.cs",
@@ -225,12 +235,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Context\\StoryContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:58:10.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:58:10.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
@@ -238,12 +247,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAJcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T02:12:40.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T02:12:40.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
@@ -251,12 +259,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T03:18:27.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T03:18:27.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\User.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\User.cs",
@@ -264,12 +271,11 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:56:39.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T22:56:39.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SucefullyResult.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\Repository\\SucefullyResult.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\Repository\\SucefullyResult.cs",
@@ -277,12 +283,11 @@
               "RelativeToolTip": "StoryDates.cs\\Repository\\SucefullyResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:34:38.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:34:38.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ICategoriesDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\ICategoriesDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\ICategoriesDates.cs",
@@ -290,12 +295,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Intefaces\\ICategoriesDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:38:10.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:38:10.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Category.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Category.cs",
@@ -303,12 +307,11 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:21:27.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:21:27.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BaseEntitie,.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
@@ -316,12 +319,11 @@
               "RelativeToolTip": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T01:22:01.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T01:22:01.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Order.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Order.cs",
@@ -329,12 +331,11 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:59:59.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T22:59:59.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderDetails.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
@@ -342,12 +343,11 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:24:32.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:24:32.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\ResultOperations\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\ResultOperations\\IBaseRepository.cs",
@@ -355,12 +355,11 @@
               "RelativeToolTip": "StoryDates.cs\\ResultOperations\\IBaseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:53:05.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:53:05.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Configurations\\UserConfigurations.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Configurations\\UserConfigurations.cs",
@@ -368,12 +367,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Configurations\\UserConfigurations.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:40:02.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:40:02.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IProductDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IProductDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IProductDates.cs",
@@ -381,12 +379,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Intefaces\\IProductDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:34:15.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:34:15.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IUserDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IUserDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IUserDates.cs",
@@ -394,12 +391,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Intefaces\\IUserDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:32:25.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:32:25.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IOrderDetailsDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IOrderDetailsDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IOrderDetailsDates.cs",
@@ -407,12 +403,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Intefaces\\IOrderDetailsDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:35:29.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:35:29.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IOrderDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IOrderDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IOrderDates.cs",
@@ -420,12 +415,11 @@
               "RelativeToolTip": "StoryDataBase.cs\\Intefaces\\IOrderDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T03:36:19.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T03:36:19.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
@@ -433,12 +427,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:53:05.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:53:05.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\appsettings.json",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\appsettings.json",
@@ -446,12 +439,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-20T17:37:06.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:37:06.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Product.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Product.cs",
@@ -459,12 +451,11 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Product.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:18:36.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T23:18:36.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "StoryApiWeb.cs.csproj",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
@@ -472,12 +463,11 @@
               "RelativeToolTip": "StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-20T17:36:44.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T17:36:44.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "StoryDataBase.cs.csproj",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\StoryDataBase.cs.csproj",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
@@ -485,8 +475,7 @@
               "RelativeToolTip": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-19T22:54:26.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T22:54:26.011Z"
             }
           ]
         }
