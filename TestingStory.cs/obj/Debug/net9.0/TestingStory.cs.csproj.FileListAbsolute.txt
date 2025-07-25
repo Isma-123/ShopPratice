@@ -167,3 +167,4 @@ C:\Users\aproc\source\repos\StoryDates.cs\TestingStory.cs\obj\Debug\net9.0\refin
 C:\Users\aproc\source\repos\StoryDates.cs\TestingStory.cs\obj\Debug\net9.0\TestingStory.cs.pdb
 C:\Users\aproc\source\repos\StoryDates.cs\TestingStory.cs\obj\Debug\net9.0\TestingStory.cs.genruntimeconfig.cache
 C:\Users\aproc\source\repos\StoryDates.cs\TestingStory.cs\obj\Debug\net9.0\ref\TestingStory.cs.dll
+C:\Users\aproc\source\repos\StoryDates.cs\TestingStory.cs\obj\Debug\net9.0\TestingStory.cs.sourcelink.json

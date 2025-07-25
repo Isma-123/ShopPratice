@@ -33,7 +33,14 @@ namespace StoryDataBase.cs.Repository.cs
         {
             SucefullyResult result = new SucefullyResult();
 
-            // valifdations for the database
+            // valifdations for the database  
+
+            if(entity is null)
+            {
+                result.status = false;
+                result.message = "User cannot be empty"; 
+                return result;
+            }
 
             if (entity.UserId <= 0 || entity.OrderId <= 0)
             {

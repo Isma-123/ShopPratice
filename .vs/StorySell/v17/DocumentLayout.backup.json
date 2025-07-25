@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\storydates.cs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\storydates.cs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\context\\storycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\context\\storycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D49EDDC6-CB9C-49AE-90C3-5AC513C4264A}|TestingStory.cs\\TestingStory.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\testingstory.cs\\firsttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D49EDDC6-CB9C-49AE-90C3-5AC513C4264A}|TestingStory.cs\\TestingStory.cs.csproj|solutionrelative:testingstory.cs\\firsttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\basedate\\baseentitie,.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\basedate\\baseentitie,.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\storydatabase.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\storydatabase.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storyapiweb.cs\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|solutionrelative:storyapiweb.cs\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\storydates.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -31,48 +83,12 @@
       "RelativeMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|solutionrelative:storyapiweb.cs\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\context\\storycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\context\\storycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\repository.cs\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\repository.cs\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\repository\\sucefullyresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\repository\\sucefullyresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\intefaces\\icategoriesdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\intefaces\\icategoriesdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\basedate\\baseentitie,.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\basedate\\baseentitie,.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\configurations\\userconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,24 +115,12 @@
       "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\intefaces\\iorderdates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storyapiweb.cs\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|solutionrelative:storyapiweb.cs\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storyapiweb.cs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|solutionrelative:storyapiweb.cs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydates.cs\\bussinessentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08CEB8F5-BA87-4C76-A1D3-2356890A164B}|StoryDates.cs\\StoryDates.cs.csproj|solutionrelative:storydates.cs\\bussinessentities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storyapiweb.cs\\storyapiweb.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A9ABE559-4F4F-44D5-A758-62F9CF7EDD6C}|StoryApiWeb.cs\\StoryApiWeb.cs.csproj|solutionrelative:storyapiweb.cs\\storyapiweb.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|c:\\users\\aproc\\source\\repos\\storydates.cs\\storydatabase.cs\\storydatabase.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CC6F3F7E-3EF8-44E1-B340-AAE486AF8153}|StoryDataBase.cs\\StoryDataBase.cs.csproj|solutionrelative:storydatabase.cs\\storydatabase.cs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -131,135 +135,158 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StoryDates.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
-              "RelativeDocumentMoniker": "StoryDates.cs\\StoryDates.cs.csproj",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
-              "RelativeToolTip": "StoryDates.cs\\StoryDates.cs.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-24T03:55:13.632Z",
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\OrderRepository.cs",
+              "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\OrderRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T01:51:22.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Product.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Product.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Product.cs",
+              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T23:18:36.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FirstTesting.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\TestingStory.cs\\FirstTesting.cs",
               "RelativeDocumentMoniker": "TestingStory.cs\\FirstTesting.cs",
               "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\TestingStory.cs\\FirstTesting.cs",
               "RelativeToolTip": "TestingStory.cs\\FirstTesting.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T03:23:00.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Program.cs",
-              "RelativeDocumentMoniker": "StoryApiWeb.cs\\Program.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Program.cs",
-              "RelativeToolTip": "StoryApiWeb.cs\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Category.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Category.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Category.cs",
+              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:37:05.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "StoryApiWeb.cs\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\WeatherForecast.cs",
-              "RelativeToolTip": "StoryApiWeb.cs\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:36:49.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StoryApiWeb.cs.http",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.http",
-              "RelativeDocumentMoniker": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.http",
-              "RelativeToolTip": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-20T17:52:55.726Z"
+              "WhenOpened": "2025-07-19T23:21:27.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StoryDates.cs.csproj",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
-              "RelativeDocumentMoniker": "StoryDates.cs\\StoryDates.cs.csproj",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
-              "RelativeToolTip": "StoryDates.cs\\StoryDates.cs.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-19T22:54:28.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
-              "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
-              "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAPAAAAAAAAAA==",
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\OrderDetails.cs*",
+              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T00:48:58.079Z"
+              "WhenOpened": "2025-07-19T23:24:32.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Base\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "StoryDataBase.cs\\Base\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Base\\BaseRepository.cs",
-              "RelativeToolTip": "StoryDataBase.cs\\Base\\BaseRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T02:55:34.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "StoryContext.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Context\\StoryContext.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Context\\StoryContext.cs",
               "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Context\\StoryContext.cs",
               "RelativeToolTip": "StoryDataBase.cs\\Context\\StoryContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:58:10.035Z"
+              "WhenOpened": "2025-07-19T23:58:10.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
               "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
               "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\CategoryRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAJcAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T02:12:40.209Z"
+              "WhenOpened": "2025-07-24T02:12:40.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Base\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "StoryDataBase.cs\\Base\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Base\\BaseRepository.cs",
+              "RelativeToolTip": "StoryDataBase.cs\\Base\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T02:55:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Order.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Order.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Order.cs",
+              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T22:59:59.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\ProductCategory.cs",
+              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\ProductCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T23:24:48.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
               "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T03:18:27.467Z"
+              "WhenOpened": "2025-07-24T03:18:27.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
+              "RelativeDocumentMoniker": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
+              "RelativeToolTip": "StoryDataBase.cs\\Repository.cs\\UserRepository.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowCgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T00:48:58.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -271,11 +298,100 @@
               "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:56:39.046Z"
+              "WhenOpened": "2025-07-19T22:56:39.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "StoryDataBase.cs.csproj",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\StoryDataBase.cs.csproj",
+              "RelativeDocumentMoniker": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\StoryDataBase.cs.csproj",
+              "RelativeToolTip": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T22:54:26.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntitie,.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
+              "RelativeDocumentMoniker": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
+              "RelativeToolTip": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T01:22:01.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:53:05.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StoryDates.cs.csproj",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
+              "RelativeDocumentMoniker": "StoryDates.cs\\StoryDates.cs.csproj",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\StoryDates.cs.csproj",
+              "RelativeToolTip": "StoryDates.cs\\StoryDates.cs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T22:54:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StoryApiWeb.cs.http",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.http",
+              "RelativeDocumentMoniker": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.http",
+              "RelativeToolTip": "StoryApiWeb.cs\\StoryApiWeb.cs.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-20T17:52:55.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "StoryApiWeb.cs\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\WeatherForecast.cs",
+              "RelativeToolTip": "StoryApiWeb.cs\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:36:49.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Program.cs",
+              "RelativeDocumentMoniker": "StoryApiWeb.cs\\Program.cs",
+              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Program.cs",
+              "RelativeToolTip": "StoryApiWeb.cs\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:37:05.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "SucefullyResult.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\Repository\\SucefullyResult.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\Repository\\SucefullyResult.cs",
@@ -287,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "ICategoriesDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\ICategoriesDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\ICategoriesDates.cs",
@@ -299,55 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Category.cs",
-              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Category.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Category.cs",
-              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:21:27.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BaseEntitie,.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
-              "RelativeDocumentMoniker": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
-              "RelativeToolTip": "StoryDates.cs\\BaseDate\\BaseEntitie,.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T01:22:01.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Order.cs",
-              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Order.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Order.cs",
-              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:59:59.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
-              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\OrderDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:24:32.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\ResultOperations\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "StoryDates.cs\\ResultOperations\\IBaseRepository.cs",
@@ -359,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "UserConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Configurations\\UserConfigurations.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Configurations\\UserConfigurations.cs",
@@ -371,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "IProductDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IProductDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IProductDates.cs",
@@ -383,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "IUserDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IUserDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IUserDates.cs",
@@ -395,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "IOrderDetailsDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IOrderDetailsDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IOrderDetailsDates.cs",
@@ -407,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "IOrderDates.cs",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\Intefaces\\IOrderDates.cs",
               "RelativeDocumentMoniker": "StoryDataBase.cs\\Intefaces\\IOrderDates.cs",
@@ -419,19 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "StoryApiWeb.cs\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T17:53:05.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\appsettings.json",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\appsettings.json",
@@ -443,19 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Product.cs",
-              "RelativeDocumentMoniker": "StoryDates.cs\\BussinessEntities\\Product.cs",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDates.cs\\BussinessEntities\\Product.cs",
-              "RelativeToolTip": "StoryDates.cs\\BussinessEntities\\Product.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T23:18:36.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "StoryApiWeb.cs.csproj",
               "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
               "RelativeDocumentMoniker": "StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
@@ -463,19 +507,8 @@
               "RelativeToolTip": "StoryApiWeb.cs\\StoryApiWeb.cs.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-20T17:36:44.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "StoryDataBase.cs.csproj",
-              "DocumentMoniker": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\StoryDataBase.cs.csproj",
-              "RelativeDocumentMoniker": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
-              "ToolTip": "C:\\Users\\aproc\\source\\repos\\StoryDates.cs\\StoryDataBase.cs\\StoryDataBase.cs.csproj",
-              "RelativeToolTip": "StoryDataBase.cs\\StoryDataBase.cs.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-19T22:54:26.011Z"
+              "WhenOpened": "2025-07-20T17:36:44.69Z",
+              "EditorCaption": ""
             }
           ]
         }

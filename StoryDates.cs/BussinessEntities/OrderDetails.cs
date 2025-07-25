@@ -7,7 +7,6 @@ namespace StoryDates.cs.BussinessEntities
     public sealed class OrderDetails
     { 
         public int orderDetailsId { get; set; }
-
         public int OrderId { get; set; }
         public Order Order { get; set; } = null!;
         public int ProductId { get; set; }

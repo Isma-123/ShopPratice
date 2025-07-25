@@ -15,3 +15,4 @@ C:\Users\aproc\source\repos\StoryDates.cs\StoryDataBase.cs\obj\Debug\net9.0\Stor
 C:\Users\aproc\source\repos\StoryDates.cs\StoryDataBase.cs\bin\Debug\net9.0\StoryDates.cs.dll
 C:\Users\aproc\source\repos\StoryDates.cs\StoryDataBase.cs\bin\Debug\net9.0\StoryDates.cs.pdb
 C:\Users\aproc\source\repos\StoryDates.cs\StoryDataBase.cs\obj\Debug\net9.0\StoryDat.73A8AFFE.Up2Date
+C:\Users\aproc\source\repos\StoryDates.cs\StoryDataBase.cs\obj\Debug\net9.0\StoryDataBase.cs.sourcelink.json

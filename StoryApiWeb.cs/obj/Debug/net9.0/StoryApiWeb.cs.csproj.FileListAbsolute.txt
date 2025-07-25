@@ -96,3 +96,4 @@ C:\Users\aproc\source\repos\StoryDates.cs\StoryApiWeb.cs\obj\Debug\net9.0\StoryA
 C:\Users\aproc\source\repos\StoryDates.cs\StoryApiWeb.cs\obj\Debug\net9.0\StoryApiWeb.cs.genruntimeconfig.cache
 C:\Users\aproc\source\repos\StoryDates.cs\StoryApiWeb.cs\obj\Debug\net9.0\ref\StoryApiWeb.cs.dll
 C:\Users\aproc\source\repos\StoryDates.cs\StoryApiWeb.cs\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\aproc\source\repos\StoryDates.cs\StoryApiWeb.cs\obj\Debug\net9.0\StoryApiWeb.cs.sourcelink.json

@@ -67,30 +67,102 @@ namespace StoryDataBase.cs.Repository.cs
             return result;
         }
 
-    
+
+        public async override Task<SucefullyResult> GetById(int id)
+        {
+            SucefullyResult result = new SucefullyResult();
+
+
+            if (id <= 0)
+            {
+                result.status = false;
+                result.message = "The Id Category Number must be 0 or greater than 0!";
+                return result;
+            }
+
+            try
+            {
+                var response = await (from category in _storyContext.Category
+                                      join i in _storyContext.ProductCategories
+                                      on category.CategoryId equals i.CategoryId
+                                      join products in _storyContext.Products
+                                      on i.ProductId equals products.ProductId
+                                      where category.CategoryId.Equals(id)
+                                      group new { category, products } by new
+                                      {
+                                          category.date,
+                                          category.IsActive,
+                                          category.CategoryName,
+                                          category.CategoryId
+                                      }
+
+                                      into a
+                                      select new
+                                      {
+                                          a.Key.date,
+                                          a.Key.IsActive,
+                                          a.Key.CategoryName,
+                                          a.Key.CategoryId,
+                                          Product = a.Select(s => s.products.ProductId).Distinct().ToList(),
+
+                                      }
+
+                                ).ToListAsync()
+                                .ConfigureAwait(false); 
+                                
+            }
+            catch (Exception ex)
+            {
+                result.status = false;
+                result.message = $"Error getting the category id: {ex.Message}";
+               _logger.LogError($"Exception Getting the (Category): {ex.Message}", ex);
+
+            }
+
+            return result;
+        }
+
         public async override Task<SucefullyResult> GetAll()
         {
             SucefullyResult result = new SucefullyResult();
             try
             {
 
-                var data = await Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions
-                    .Include(_storyContext.Category, s => s.Products)
-                     .OrderByDescending(s => s.date)
-                     .Select(d => new
-                     {
-                     
-                         d.CategoryId,
-                         d.CategoryName,
-                         d.date,
-                         d.IsActive,
-                         Products = d.Products.Select(a => new Product
-                         {
-                             ProductId = a.ProductId,
-                         }).ToList()
-                     }).ToListAsync();
 
-                result.result = data;
+                var date = await (from category in _storyContext.Category
+                                  join i in _storyContext.ProductCategories
+                                  on category.CategoryId equals i.CategoryId
+                                  join product in _storyContext.Products
+                                  on i.ProductId equals product.ProductId
+                                  where category.IsActive
+                                  orderby category.date descending
+                                  group new { category, product } by new
+                                  {
+                                      category.CategoryId,
+                                      category.CategoryName,
+                                      category.date,
+                                      category.IsActive
+                                  } into g
+                                  select new
+                                  {
+                                      g.Key.CategoryId,
+                                      g.Key.CategoryName,
+                                      g.Key.date,
+                                      g.Key.IsActive,
+                                      Products = g.Select(x => new
+                                      {
+                                          x.product.ProductId,
+                                          x.product.Name,
+                                          x.product.Price,
+                                          x.product.Stock
+                                        
+                                      }).ToList()
+                                  })
+                          .ToListAsync();
+
+
+                result.result = date;
+                result.message = "category has been disclosed!";
 
             }
             catch (Exception ex)
@@ -138,13 +210,13 @@ namespace StoryDataBase.cs.Repository.cs
                 if(date != null)
                 {
                     Category categoryupdate = new Category();
-                    categoryupdate.CategoryId = entity.CategoryId;
-                    categoryupdate.ProductId = entity.ProductId;    
+                    categoryupdate.CategoryId = entity.CategoryId;  
                     categoryupdate.CategoryName = entity.CategoryName;
                     categoryupdate.date = DateTime.Now;
                     categoryupdate.IsActive = entity.IsActive;
 
                     var response = await base.Update(categoryupdate);
+                    result.result = response;
                     result.message = "the category has been updated on the system already!";
                 } else
                 {

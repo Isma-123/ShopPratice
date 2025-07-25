@@ -20,10 +20,11 @@ namespace StoryDataBase.cs.Context
         public DbSet<OrderDetails> OrderDetails  { get; set; } 
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Products { get; set; }    
+        public DbSet<ProductCategory> ProductCategories { get; set; }   
         #endregion
 
         //Db en In memory 
-        
+       
         public StoryContext() { }
 
 
@@ -35,6 +36,8 @@ namespace StoryDataBase.cs.Context
             modelBuilder.Entity<Order>().ToTable("Order").HasKey(b => b.OrderId);
             modelBuilder.Entity<OrderDetails>().ToTable("OrderDetails").HasKey(v => v.orderDetailsId);
             modelBuilder.Entity<Category>().ToTable("Category").HasKey(c =>  c.CategoryId);
+            modelBuilder.Entity<ProductCategory>().HasKey(pc => new { pc.ProductId, pc.CategoryId });
+
 
             modelBuilder.Entity<User>()  // users configuration
              .HasMany(s => s.Orders)
@@ -53,19 +56,18 @@ namespace StoryDataBase.cs.Context
             .HasForeignKey(t => t.UserId)
             .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Product>()  // producto configuration                                                       
-            .HasMany(s => s.Categories)
-            .WithMany(d => d.Products);
+            modelBuilder.Entity<ProductCategory>()
+            .HasOne(s => s.product)
+            .WithMany(d => d.productCategories)
+            .HasForeignKey(a => a.ProductId);
 
-            modelBuilder.Entity<Category>()    // categories configuration
-                .HasMany(d => d.Products)
-                .WithMany(t => t.Categories);
 
-            modelBuilder.Entity<OrderDetails>()
-                .HasOne(t => t.Order)
-                .WithMany(s => s.Details)
-                .HasForeignKey(c => c.OrderId); 
+            modelBuilder.Entity<ProductCategory>()
+             .HasOne(s => s.category)
+             .WithMany(d => d.productCategories)
+             .HasForeignKey(a => a.CategoryId);
 
+         
             base.OnModelCreating(modelBuilder);
         }
 

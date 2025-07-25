@@ -17,9 +17,6 @@ namespace StoryDates.cs.BussinessEntities
         [Required]
         public string CategoryName { get; set; } = null!;
 
-        [ForeignKey(nameof(CategoryId))]     
-        public int ProductId {  get; set; }
-        public ICollection<Product> Products { get; set; } = null!;
-
+        public ICollection<ProductCategory> productCategories { get; set; } = null!;
     }
 }
