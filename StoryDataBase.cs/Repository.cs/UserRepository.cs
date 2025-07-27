@@ -135,7 +135,7 @@ namespace StoryDataBase.cs.Repository.cs
 
         public override async Task<SucefullyResult> GetById(int id)
         {
-            SucefullyResult result = new SucefullyResult() ;
+            SucefullyResult result = new SucefullyResult();
 
 
             if(id <= 0)
@@ -179,7 +179,7 @@ namespace StoryDataBase.cs.Repository.cs
             if (entity.UserId <= 0 || entity.OrderId <= 0)
             {
                 result.status = false;
-                result.message = "you cannot pur any id number to 0 or equal to 0!";
+                result.message = "you cannot put any id number to 0 or equal to 0!";
                 return result;
             }
 

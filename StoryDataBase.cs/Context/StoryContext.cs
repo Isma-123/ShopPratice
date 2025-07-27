@@ -67,7 +67,13 @@ namespace StoryDataBase.cs.Context
              .WithMany(d => d.productCategories)
              .HasForeignKey(a => a.CategoryId);
 
-         
+            modelBuilder.Entity<OrderDetails>()
+            .HasOne(od => od.Order)
+            .WithMany(o => o.Details)
+            .HasForeignKey(od => od.OrderId);
+
+
+
             base.OnModelCreating(modelBuilder);
         }
 
