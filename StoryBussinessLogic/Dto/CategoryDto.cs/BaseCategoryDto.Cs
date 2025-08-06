@@ -11,7 +11,7 @@ namespace StoryBussinessLogic.Dto.CategoryDto.cs
     {
 
         public DateTime date { get; set; } = DateTime.Now;
-        public bool IsActive { get; set; }
+       
         public string CategoryName { get; set; } = null!;
     }
 }

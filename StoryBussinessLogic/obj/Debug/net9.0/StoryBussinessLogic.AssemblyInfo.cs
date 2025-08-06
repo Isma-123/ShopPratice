@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoryBussinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf571c9cefb860fa3723a967c311285ef79fb6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b082f3c5c9f7be53087928396dd0e98c63a6d2b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoryBussinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoryBussinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

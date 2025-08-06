@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using StoryBussinessLogic.Dto.CategoryDto.cs;
 using StoryBussinessLogic.Dto.ProductDto.cs;
 using StoryBussinessLogic.Response.ProductResponse.cs;
 using StoryBussinessLogic.Services;
@@ -85,8 +86,10 @@ namespace StoryBussinessLogic.Services_Manager
                             Stock = s.Stock,
                             ImageUrl = s.ImageUrl,
                             date = s.date,
-                            IsActive = s.IsActive
-                         
+                            IsActive = s.IsActive,
+                            productCategories = (ICollection<ProductCategory>)s.productCategories.Select(pc => pc.CategoryId).ToList(),
+
+
                         }).ToList();
 
                     result.date = dtoproduct;
@@ -135,8 +138,10 @@ namespace StoryBussinessLogic.Services_Manager
 
                 } else
                 {
-                    result.text = "Product retrieved successfully.";
+
                     result.date = request;
+                    result.text = "Product retrieved successfully.";
+               
 
                 }
             } catch (Exception ex)
