@@ -6,6 +6,7 @@ using StoryDataBase.cs.Intefaces;
 using StoryDates.cs.BussinessEntities;
 
 
+
 namespace StoryBussinessLogic.Services_Manager
 {
     public class CategoryServices : ICategoryServices
@@ -74,9 +75,11 @@ namespace StoryBussinessLogic.Services_Manager
                         {
                             CategoryId = c.CategoryId,
                             CategoryName = c.CategoryName,
-                            date = c.date
+                            date = c.date,
+                            IsActive =c.IsActive,
+                            ProductCategoriesDto = (ICollection<ProductCategory>)c.productCategories.Select(pc => pc.ProductId).ToList(),
                         }).ToList();
-
+ 
 
                     if (getCategoryDtos.Count < 0)
                     {

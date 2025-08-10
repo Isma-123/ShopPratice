@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using StoryDates.cs.BussinessEntities;
+
 
 namespace StoryBussinessLogic.Dto.CategoryDto.cs
 {
@@ -10,5 +7,6 @@ namespace StoryBussinessLogic.Dto.CategoryDto.cs
     {
         public int CategoryId { get; set; }
         public bool IsActive { get; internal set; }
+        public ICollection<ProductCategory> ProductCategoriesDto { get; set; } = null!;
     }
 }

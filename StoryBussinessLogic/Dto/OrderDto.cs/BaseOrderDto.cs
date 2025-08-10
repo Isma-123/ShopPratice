@@ -8,11 +8,10 @@ namespace StoryBussinessLogic.Dto.OrderDto.cs
     public class BaseOrderDto
     {
    
-        public bool IsActive { get; set; }
+       
         public DateTime date { get; set; }
         public decimal Total { get; set; }
         public int UserId { get; set; }     
-
         public int OrderDetailsId { get; set; }
     }
 }

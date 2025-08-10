@@ -77,7 +77,8 @@ namespace StoryBussinessLogic.Services_Manager
 
 
                 List<GetOrderDetailsDto> orderdto = ((List<OrderDetails>)request.result).Select(
-                    s => new GetOrderDetailsDto
+                    s => new GetOrderDetailsDto   // convierto a dto
+
                     {
                         orderDetailsId = s.orderDetailsId,
                         UnitPrice = s.UnitPrice,

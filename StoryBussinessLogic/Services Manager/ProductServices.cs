@@ -87,7 +87,7 @@ namespace StoryBussinessLogic.Services_Manager
                             ImageUrl = s.ImageUrl,
                             date = s.date,
                             IsActive = s.IsActive,
-                            productCategories = (ICollection<ProductCategory>)s.productCategories.Select(pc => pc.CategoryId).ToList(),
+                            productCategoriesDto = (ICollection<ProductCategory>)s.productCategories.Select(pc => pc.CategoryId).ToList(),
 
 
                         }).ToList();
@@ -166,7 +166,7 @@ namespace StoryBussinessLogic.Services_Manager
 
                 var  product = await _productRepository.GetById(updatedDto.ProductId); 
 
-                if(!product.status)
+                if(!product.status || product is null)
                 {
                     result.text = "Product not found."; 
                     result.success = false;

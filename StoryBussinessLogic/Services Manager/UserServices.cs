@@ -13,15 +13,15 @@ using System.Linq.Expressions;
 namespace StoryBussinessLogic.Services_Manager
 {
     public class UserServices : IUserServices
-    {   
+    {
 
         public readonly UserRepository _userRepository;
         public readonly ILogger<UserServices> _logger;
 
 
         public UserServices(UserRepository userRepository, ILogger<UserServices> logger)
-        {  
-          
+        {
+
             _userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
             _logger = logger;
         }
@@ -31,15 +31,15 @@ namespace StoryBussinessLogic.Services_Manager
 
             try
             {
-               
-                
+
+
                 User user = new User();
                 user.OrderId = saveDto.OrderId;
                 user.FullName = saveDto.FullName;
                 user.Email = saveDto.Email;
                 user.PasswordHash = saveDto.PasswordHash;
                 user.Rol = saveDto.Rol;
-                user.date = DateTime.Now;   
+                user.date = DateTime.Now;
                 user.IsActive = saveDto.IsActive;
 
 
@@ -47,13 +47,14 @@ namespace StoryBussinessLogic.Services_Manager
                 result.date = request;
                 result.text = "User added successfully!";
 
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 result.success = false;
                 result.text = $"Error while adding user: {ex.Message}";
-               _logger.LogError($"Error while adding user: {ex.Message}");
-                
-            }   
+                _logger.LogError($"Error while adding user: {ex.Message}");
+
+            }
 
             return result;
         }
@@ -91,8 +92,9 @@ namespace StoryBussinessLogic.Services_Manager
                         }).ToList();
 
                     result.date = user;
-                    result.text = "List of users retrieved successfully!";  
-                }  else
+                    result.text = "List of users retrieved successfully!";
+                }
+                else
                 {
                     result.success = false;
                     result.text = "No users found.";
@@ -115,10 +117,10 @@ namespace StoryBussinessLogic.Services_Manager
 
             try
             {
-               
+
                 var request = await _userRepository.GetById(id);
 
-                if(!request.status)
+                if (!request.status)
                 {
                     result.success = false;
                     result.text = "User not found.";
@@ -153,25 +155,26 @@ namespace StoryBussinessLogic.Services_Manager
             {
                 _logger.LogInformation("Searching for user with FullName: {FullName}", user.FullName);
 
-                bool exists = await _userRepository.Exist(u => u.FullName == user.FullName);
+                var request = await _userRepository.GetByFullName(user.FullName);
 
-                if (exists)
+
+                if (request.FullName == user.FullName)
                 {
-                    response.success = true;
+                    response.date = request;
                     response.text = "User found successfully!";
-                    response.date = user;
                 }
                 else
                 {
                     response.success = false;
                     response.text = "User not found.";
                 }
+
             }
             catch (Exception ex)
             {
                 response.success = false;
                 response.text = "An error occurred while searching for the user.";
-               _logger.LogError(ex, "Error while searching for user with FullName: {FullName}", user.FullName);
+                _logger.LogError(ex, "Error while searching for user with FullName: {FullName}", user.FullName);
             }
 
             return response;
@@ -188,7 +191,7 @@ namespace StoryBussinessLogic.Services_Manager
 
                 var request = await _userRepository.GetById(updatedDto.UserId);
 
-                if(request.status)
+                if (request.status)
                 {
                     User user = (User)request.result;
                     user.UserId = updatedDto.UserId;
@@ -197,7 +200,7 @@ namespace StoryBussinessLogic.Services_Manager
                     user.PasswordHash = updatedDto.PasswordHash;
                     user.Rol = updatedDto.Rol;
                     user.IsActive = updatedDto.IsActive;
-                    user.date = DateTime.Now; 
+                    user.date = DateTime.Now;
 
 
                     var updateRequest = await _userRepository.Update(user);
@@ -223,12 +226,45 @@ namespace StoryBussinessLogic.Services_Manager
             {
                 result.success = false;
                 result.text = $"Error while updating the user: {ex.Message}";
-               _logger.LogError($"Error while updating the user: {ex.Message}");
+                _logger.LogError($"Error while updating the user: {ex.Message}");
             }
 
             return result;
         }
 
- 
+
+        public async Task<UserResponse> Login(string username, string password)
+        {
+            var response = new UserResponse();
+
+            try
+            {
+                _logger.LogInformation($"Attempting login for Username: {username}");
+
+                var user = await _userRepository.ValidateUser(username, password);
+
+                if (user != null)
+                {
+                    response.date = user;
+                    response.text = "Login successful.";
+                    // seguire implementacion de login con JWT o session
+                }
+                else
+                {
+                    response.success = false;
+                    response.text = "Invalid username or password.";
+                }
+            }
+            catch (Exception ex)
+            {
+                response.success = false;
+                response.text = "An error occurred during login.";
+                _logger.LogError(ex, "Error during login for Username: {Username}", username);
+            }
+
+            return response;
+        }
+
+
     }
 }

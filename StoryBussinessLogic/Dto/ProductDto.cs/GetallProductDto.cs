@@ -6,6 +6,6 @@ namespace StoryBussinessLogic.Dto.ProductDto.cs
     {
         public int ProductId { get; set; }
         public bool IsActive { get; set; }
-        public ICollection<ProductCategory> productCategories { get; set; } = null!;
+        public ICollection<ProductCategory> productCategoriesDto { get; set; } = null!;
     }
 }
