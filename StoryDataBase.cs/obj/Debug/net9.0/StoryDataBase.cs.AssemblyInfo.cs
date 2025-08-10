@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoryDataBase.cs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fd8a97293ba1c1a136804f7635769defcb3d097")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a24161b5cbcc4dcb1e313eb8163dd05918e40cbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoryDataBase.cs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoryDataBase.cs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

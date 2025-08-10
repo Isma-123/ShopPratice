@@ -48,6 +48,8 @@ namespace StoryDataBase.cs.Base
             return await _entities.AnyAsync(predicate); 
         }
 
+
+
         public virtual async Task<SucefullyResult> GetAll()
         {
             SucefullyResult result = new SucefullyResult();
@@ -108,5 +110,11 @@ namespace StoryDataBase.cs.Base
 
             return result;
         }
-    }
+
+
+     
+
+
+
+        }
 }

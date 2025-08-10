@@ -1,5 +1,4 @@
 ﻿
-
 using Microsoft.Extensions.Logging;
 using StoryDataBase.cs.Base;
 using StoryDataBase.cs.Context;
@@ -7,6 +6,7 @@ using StoryDataBase.cs.Intefaces;
 using StoryDates.cs.BussinessEntities;
 using StoryDates.cs.Repository;
 using System.Data.Entity;
+using System.Linq.Expressions;
 
 namespace StoryDataBase.cs.Repository.cs
 {
@@ -15,18 +15,18 @@ namespace StoryDataBase.cs.Repository.cs
 
         private readonly StoryContext _storyContext;
         private readonly ILogger<UserRepository> _logger;
-        private ILogger<StoryContext> @object;
+
+
 
         public UserRepository(StoryContext storyContext, ILogger<UserRepository>
             _logger) : base(storyContext)
         {
             _storyContext = storyContext;
-             this._logger = _logger;
+            this._logger = _logger;
         }
 
         public UserRepository(StoryContext storyContext, ILogger<StoryContext> @object) : base(storyContext)
         {
-            this.@object = @object;
         }
 
         public override async Task<SucefullyResult> Add(User entity)
@@ -35,10 +35,10 @@ namespace StoryDataBase.cs.Repository.cs
 
             // valifdations for the database  
 
-            if(entity is null)
+            if (entity is null)
             {
                 result.status = false;
-                result.message = "User cannot be empty"; 
+                result.message = "User cannot be empty";
                 return result;
             }
 
@@ -65,7 +65,7 @@ namespace StoryDataBase.cs.Repository.cs
                 return result;
             }
 
-            if(entity.Email.Length > 50)
+            if (entity.Email.Length > 50)
             {
                 result.status = false;
                 result.message = "One or more fields exceed the maximum allowed length of 50 characters.";
@@ -81,8 +81,8 @@ namespace StoryDataBase.cs.Repository.cs
 
             try
             {
-                 await base.Add(entity);
-                 result.message = "This user is sucefully registered in the system.";
+                await base.Add(entity);
+                result.message = "This user is sucefully registered in the system.";
             }
             catch (Exception ex)
             {
@@ -91,11 +91,14 @@ namespace StoryDataBase.cs.Repository.cs
                 _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
             }
 
-            return result; 
+            return result;
         }
 
+
+
+
         public override async Task<SucefullyResult> GetAll()
-        {   
+        {
 
             SucefullyResult result = new SucefullyResult();
             try
@@ -103,18 +106,20 @@ namespace StoryDataBase.cs.Repository.cs
                 var data = await _storyContext.user
                        .Include(u => u.Orders)
                        .OrderByDescending(u => u.date)
-                       .Select(u => new {
-                       u.UserId,
-                       u.FullName,
-                       u.Email,
-                       u.Rol,
-                       password = u.PasswordHash,
-                       u.date,
-                       u.IsActive,
-                       Orders = u.Orders!.Select(o => new {
-                        o.OrderId
-                     })
-            })
+                       .Select(u => new
+                       {
+                           u.UserId,
+                           u.FullName,
+                           u.Email,
+                           u.Rol,
+                           password = u.PasswordHash,
+                           u.date,
+                           u.IsActive,
+                           Orders = u.Orders!.Select(o => new
+                           {
+                               o.OrderId
+                           })
+                       })
                .AsNoTracking()
                 .ToListAsync();
 
@@ -126,11 +131,17 @@ namespace StoryDataBase.cs.Repository.cs
             {
                 result.status = false;
                 result.message = $"Error getting the users on the system! {ex.Message}";
-               _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
+                _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
             }
-        
+
 
             return result;
+        }
+
+        public async Task<User> GetByFullName(string name)
+        {
+            return await _storyContext.user.FirstOrDefaultAsync(u => u.FullName == name);
+
         }
 
         public override async Task<SucefullyResult> GetById(int id)
@@ -138,7 +149,7 @@ namespace StoryDataBase.cs.Repository.cs
             SucefullyResult result = new SucefullyResult();
 
 
-            if(id <= 0)
+            if (id <= 0)
             {
                 result.status = false;
                 result.message = "The ID must be greater than zero.";
@@ -151,7 +162,7 @@ namespace StoryDataBase.cs.Repository.cs
                            .Where(d => d.UserId.Equals(id))
                            .OrderByDescending(a => a.date)
                            .AsNoTracking()
-                           .FirstOrDefaultAsync(); 
+                           .FirstOrDefaultAsync();
 
 
                 result.result = data;
@@ -162,7 +173,7 @@ namespace StoryDataBase.cs.Repository.cs
             {
                 result.status = false;
                 result.message = $"Error getting the {id} on the system! {ex.Message}";
-               _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
+                _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
 
             }
 
@@ -173,7 +184,7 @@ namespace StoryDataBase.cs.Repository.cs
 
         public async override Task<SucefullyResult> Update(User entity)
         {
-            SucefullyResult result = new SucefullyResult(); 
+            SucefullyResult result = new SucefullyResult();
 
 
             if (entity.UserId <= 0 || entity.OrderId <= 0)
@@ -209,13 +220,13 @@ namespace StoryDataBase.cs.Repository.cs
             try
             {
 
-               User? date = await _storyContext.user.FindAsync(entity.UserId);
+                User? date = await _storyContext.user.FindAsync(entity.UserId);
 
-               if(date != null)
+                if (date != null)
                 {
                     User userupdated = new User();
                     userupdated.UserId = entity.UserId;
-                    userupdated.OrderId = entity.OrderId;   
+                    userupdated.OrderId = entity.OrderId;
                     userupdated.FullName = entity.FullName;
                     userupdated.Email = entity.Email;
                     userupdated.Rol = entity.Rol;
@@ -223,9 +234,10 @@ namespace StoryDataBase.cs.Repository.cs
                     userupdated.date = DateTime.Now;
 
                     var response = await base.Update(userupdated);
-                    result.result = response; 
+                    result.result = response;
                     result.message = "User has been updated sucefully! ";
-                } else
+                }
+                else
                 {
                     result.status = false;
                     result.message = "error updating the user on the system";
@@ -236,12 +248,31 @@ namespace StoryDataBase.cs.Repository.cs
             {
                 result.status = false;
                 result.message = $"Error updating the User on the system! {ex.Message}";
-               _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
+                _logger.LogError($"Error found it type {ex.Message.ToString()}", ex);
 
             }
 
 
             return result;
         }
+
+        public async Task<User> ValidateUser(string userName, string passwordHash)
+        {
+            var user = await _storyContext.user
+                .FirstOrDefaultAsync(u => u.Email == userName && u.PasswordHash == passwordHash);
+
+            if (user != null && BCrypt.Net.BCrypt.Verify(passwordHash, user.PasswordHash))
+            {
+                return user;
+            }
+            else
+            {
+                return null!; 
+
+            }
+        }
+
     }
 }
+
+
